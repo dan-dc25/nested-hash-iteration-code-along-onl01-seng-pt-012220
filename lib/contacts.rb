@@ -13,6 +13,9 @@ require 'pry'
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
   # }
+  contacts.each do |name, attr|
+    puts "#{name}, #{attr}."
+  end
   
 def remove_strawberry(contacts)
 
